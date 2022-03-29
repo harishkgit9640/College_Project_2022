@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.ftittle {
+  color: #ddd;
+  border-bottom: royalblue 4px solid;
+  padding-bottom: 5px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+
+.ftittle ~ p{
+  color: gray;
+  font-weight: 300;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer-links input:first-child {
+  outline: none;
+  border: none;
+  background-color: #ddd;
+  border-radius: 5px 0 0 5px;
+  width: 60%;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.footer-links input:last-child {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: gray;
+  border-radius: 0 5px 5px 0;
+  border: gray 2px solid;
+  font-weight: 300;
+  width: 30%;
+  height: 30px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.useful-links,
+.social-links,
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.social-links,
+a i {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.useful-links,
+.social-links,
+a:hover,
+i:hover {
+  color: crimson;
+}
+.useful-links a:hover{
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.social-links a i {
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.footer-contact p i {
+  font-size: 18px;
+  padding-right: 5px;
+  margin-top: 8px;
+}
+.copyright{
+  color: #ddd;
+}
+.copyright span{
+  color: crimson;
+}

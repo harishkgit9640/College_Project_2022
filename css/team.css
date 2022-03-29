@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.card-body h4{
+  color: royalblue;
+}
+
+.card-body .social_media p{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-body p a{
+  padding: 5px;
+}
+
+.card-body p a i{
+  font-size: 25px;
+  color: gray;
+  text-decoration: none;
+}
+
+.card-body p a i:hover{
+  color: crimson;
+}
